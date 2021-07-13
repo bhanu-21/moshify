@@ -286,3 +286,73 @@ a {
     font-size: 1.5rem;
   }
 }
+
+/* Cards & Plans */
+.plan {
+  transition: transform 0.2s ease-out;
+}
+
+.plan:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+}
+
+.card--secondary .card--header {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.card--secondary .badge--secondary {
+  background: #02cdf1;
+}
+
+.card--header {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.card--header,
+.card__body {
+  padding: 2rem 3rem;
+}
+
+.plan__name {
+  color: #fff;
+  margin: 0;
+  font-weight: 500;
+}
+
+.plan__price {
+  font-size: 4rem;
+}
+
+.plan__billing-cycle {
+  font-weight: 300;
+  opacity: 0.8;
+  margin-right: 1rem;
+}
+
+.plan__description {
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: block;
+}
+
+@media screen and (min-width: 1024px) {
+  .plan__name {
+    font-size: 1.4rem;
+  }
+
+  .plan__price {
+    font-size: 5rem;
+  }
+
+  .plan__billing-cycle {
+    font-size: 1.6rem;
+  }
+}
