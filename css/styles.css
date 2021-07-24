@@ -190,7 +190,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   margin: 1rem 0;
-  padding: 2rem 2rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -278,6 +278,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -737,7 +738,7 @@ p {
 
 .block-domain__prices {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colums, 2 rows */
+  grid-template-columns: repeat(2, 1fr); /* 3 colums, 2 rows */
   grid-template-rows: repeat(2, 6rem); /*  This is for height of the rows */
   font-size: 2rem;
   font-weight: 600;
@@ -843,7 +844,7 @@ h3 {
 
 /* Testimonials Block */
 .block__header {
-  margin: 4rem;
+  margin: 1rem;
 }
 
 /* Footer */
